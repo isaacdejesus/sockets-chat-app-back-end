@@ -15,7 +15,7 @@ app.use(router_1.default);
 const httpServer = require("http").createServer(app);
 const io = require("socket.io")(httpServer, {
     cors: {
-        origin: "http://localhost:3000",
+        origin: "https://idyllic-bunny-a1e672.netlify.app/",
         methods: ["GET", "POST"],
     }
 });
